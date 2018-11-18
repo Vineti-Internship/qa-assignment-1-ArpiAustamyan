@@ -3,22 +3,29 @@ Test cases
 * In the first step, the value of WAREHOUSE COUNTRY is USA
 * Click on Russia
 Expected Result: Radio button changed
+
 2) We need to check if we can change the value of the radio button
 * In the first step, the value of Type of order is online shopping
 * Click on the personal parcel
 Expected Result: Type of order must be a personal parcel.
+
 3) Check the functionality of Real Weight / kg
 * The up / down arrow does not accept a value below zero.
 Expected Result: Value is  zero or above zero.
 ** I think there is an error, because we can write the value of Real Weight / kg -5.
+
 4) Write  not numerical value in the statment of Real Weight / kg
 Expected Result: Do not allow us to write anything that takes a not numeric value
+
 5) When the country is the USA, the type of delivery is air transport, the TYPE OF ORDER is online shopping, and the Real Weight of item is 1 kilogram
 Excepted Result: Shipping cost should be 4000AMD.
+
 6) When the country is the Great Britain ,the type of delivery is air transport, Type of order is online shopping, and the Real Weight of item is 5 kilograms
 Excluded result: Shipping cost should be 4000AMD.
+
 7) When the country is China, shipping type can not be sea shipping and Type of order can not be personal package.
 Excepted Result: cannot select a personal parcel in the Type of order and do not select in the Shipping Method by air.
+
 8) When the country is USA, the type of delivery is air transport, The type of order is online shopping and the Real Weight of the product is 5 kilograms
 Excepted Result: Shipping cost should be 2000 AMD.
 If the Type of order is a personal parcel
